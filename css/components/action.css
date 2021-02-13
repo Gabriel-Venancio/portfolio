@@ -15,3 +15,7 @@
     height: 10px;
     margin-right: 10px;
 }
+
+.action:hover{
+    color: #888;
+  }

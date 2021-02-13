@@ -2,7 +2,8 @@
     box-sizing: border-box;
     background-image: url(../../assets/img/photo.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 50%;
+    background-position: right;
     height: 800px;
     border-bottom: 10px solid #000;
     padding-top: 115px;
@@ -22,4 +23,8 @@
 .banner .navigation {
     display: flex;
     justify-content: space-around;
+}
+
+.banner .btn-shadow{
+    box-shadow: 5px 5px 0 #000;
 }
