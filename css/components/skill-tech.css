@@ -7,10 +7,15 @@
 
 .skill-tech .icon {
     margin-right: 25px;
+    width: 90px;
 }
 
 .skill-tech .right {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+.skill-tech .title {
+    margin-bottom: 10px;
 }
