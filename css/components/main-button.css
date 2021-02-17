@@ -1,4 +1,4 @@
-.button {
+.main-button {
     display: inline-block;
     background-color: #FF7200;
     padding: 18px 20px;
@@ -10,7 +10,7 @@
     text-decoration: none;
 }
 
-.button:hover {
+.main-button:hover {
     transform: scale(1.05);
     background: linear-gradient(-45deg, #222F3E, #3A4042, #FF7200, #f57710);
     background-size: 400% 400%;
