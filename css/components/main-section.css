@@ -13,6 +13,15 @@
     background-color: #000;
 }
 
+.main-section.-bgblue {
+    background-color: #100F21;
+}
+
 .main-section.-bdfirst {
     border-color: #FF7200;
 }
+
+.main-section.-bdsecond {
+    border-color: #000;
+}
+
