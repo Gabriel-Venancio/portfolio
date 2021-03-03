@@ -23,7 +23,10 @@
     <link rel="stylesheet" href="./css/components/wrapper-skill.css">
     <link rel="stylesheet" href="./css/components/card-project.css">
     <link rel="stylesheet" href="./css/components/wrapper-card.css">
-    <link rel="stylesheet" href="./css/components/main-text.css">
+    <link rel="stylesheet" href="./css/components/main-description.css">
+    <link rel="stylesheet" href="./css/components/button-arrow.css">
+    <link rel="stylesheet" href="./css/components/node-card.css">
+    <link rel="stylesheet" href="./css/components/main-carousel.css">
     
 </head>
 <body>
@@ -91,20 +94,20 @@
     <section class="main-section -bgblack -bdfirst">
         <h2 class="main-title -second">Projetos</h2>
 
-            <div class="wrapper-card">
+            <div class="wrapper-card ">
                 <a href="https://dev-finances.gabriel-venancio.vercel.app/" target="_blank">
-                    <figure class="card-project">
-                        <img class="logo" src="./img/devfinance.png" alt="">
+                    <figure class="card-project -green">
+                        <img class="logo" src="./img/devfinance.png" alt="Logo DevFinance">
                     </figure>
                 </a>
                 <a href="https://futquiz.gabriel-venancio.vercel.app/" target="_blank">
-                    <figure class="card-project -blue">
-                        <img class="logo" src="./img/devfinance.png" alt="">
+                    <figure class="card-project -grey">
+                        <img class="logo" src="./img/aluraquiz.png" alt="Logo Alura Quiz">
                     </figure>
                 </a>
-                <a href="https://github.com/Gabriel-Venancio" target="_blank">
-                    <figure class="card-project">
-                        <img class="logo" src="./img/devfinance.png" alt="">
+                <a href="https://moveit-gabriel-venancio.vercel.app" target="_blank">
+                    <figure class="card-project -blue">
+                        <img class="logo" src="./img/moveit.png" alt="Logo Move It">
                     </figure>
                 </a>
         </div>
@@ -113,10 +116,41 @@
     <section class = "main-section -bgblue -bdsecond">
         <h2 class="main-title -second">Sobre</h2>
 
-        <p class="main-text -about">
-            Profissional ágil e proativo, sempre buscando novos conhecimentos com capacidade rápida de aprendizado, interessado, dedicado e boa comunicação entre equipe e pessoas. O objetivo profissional de Gabriel é atuar como desenvolvedor Front-end.
-        </p>
+        <section class="main-carousel">
+            <button class="button-arrow -left"><span class="content">Avançar</span></button>
 
+            <div class="items">
+                <div class="elements">
+                    <figure class="node-card -clean" >
+                        <figcaption class="title">2018</figcaption>
+                        <div class="logo">
+                            <img src="img/azul-seguros-logo.png" alt="Logo da Azul Seguros">
+                        </div>
+                    </figure>
+
+                    <figure class="node-card -daniellipp -clean">
+                        <figcaption class="title">2020</figcaption>
+                        <div class="logo">
+                            <img src="img/daniellipp-logo.png" alt="Logo do Daniel Lipp">
+                        </div>
+                    </figure>
+
+                    <figure class="node-card -milano">
+                        <figcaption class="title">2021</figcaption>
+                        <div class="logo">
+                            <img src="img/milano-logo.jpg" alt="Logo da LocaWeb">
+                        </div>
+                    </figure>
+                </div>
+            </div>
+
+            <button class="button-arrow -right"><span class="content">Voltar</span></button>
+        </section>
+        <p class="main-description">
+            Profissional ágil e proativo, sempre buscando novos conhecimentos com capacidade rápida de aprendizado, interessado, dedicado e boa comunicação entre equipe e pessoas. O objetivo profissional de Gabriel é atuar como desenvolvedor.
+        </p>
     </section>
+
+    <script src="js/components/main-carousel.js"></script>
 </body>
 </html>
