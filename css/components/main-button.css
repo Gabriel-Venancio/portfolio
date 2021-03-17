@@ -17,6 +17,10 @@
     animation: gradient 8s ease infinite;
 }
 
+.main-button.-full {
+    width: 100%;
+}
+
   
 @keyframes gradient {
     0% {
