@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="./css/components/button-arrow.css">
     <link rel="stylesheet" href="./css/components/node-card.css">
     <link rel="stylesheet" href="./css/components/main-carousel.css">
+    <link rel="stylesheet" href="./css/components/main-label.css">
     <link rel="stylesheet" href="./css/components/main-footer.css">
 
     
@@ -156,16 +157,14 @@
      <section class = "main-section -bggrey -bdsecond">
         <h2 class="main-title -second">Contatos</h2>
             <form action="" method="post">
-                    <fieldset>
-                        <label>Nome</label>
+                        <label class="main-label">Nome</label>
                         <input type="text" name="text" id="text" required>
-                        <label>Email</label>
+                        <label class="main-label">Email</label>
                         <input type="email" name="email" id="email" required>
-                        <label>Mensagem</label>
-                        <textarea name="mensagem" id="mensagem" cols="30" rows="10" required></textarea>
-                    </fieldset>
-                
-                <button>Enviar</button>
+                        <label class="main-label">Mensagem</label>
+                        <textarea name="mensagem" id="mensagem" required></textarea>
+    
+                <button type="submit">Enviar</button>
             </form>
     </section>
 
