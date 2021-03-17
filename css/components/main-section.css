@@ -17,6 +17,10 @@
     background-color: #100F21;
 }
 
+.main-section.-bggrey {
+    background-color: #3A4042;
+}
+
 .main-section.-bdfirst {
     border-color: #FF7200;
 }
