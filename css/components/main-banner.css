@@ -1,8 +1,8 @@
 .main-banner {
     box-sizing: border-box;
-    background-image: url(../../assets/img/photo.jpg);
+    background-image: url(../../assets/img/banner.jpg);
     background-repeat: no-repeat;
-    background-size: 50%;
+    background-size: 100%;
     background-position: right;
     height: 800px;
     border-bottom: 10px solid #000;
